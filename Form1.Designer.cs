@@ -69,7 +69,7 @@
             this.nameLab.AutoSize = true;
             this.nameLab.Location = new System.Drawing.Point(396, 20);
             this.nameLab.Name = "nameLab";
-            this.nameLab.Size = new System.Drawing.Size(51, 20);
+            this.nameLab.Size = new System.Drawing.Size(64, 25);
             this.nameLab.TabIndex = 6;
             this.nameLab.Text = "label1";
             // 
@@ -87,7 +87,7 @@
             // 
             this.regBut.Location = new System.Drawing.Point(24, 12);
             this.regBut.Name = "regBut";
-            this.regBut.Size = new System.Drawing.Size(191, 37);
+            this.regBut.Size = new System.Drawing.Size(216, 37);
             this.regBut.TabIndex = 4;
             this.regBut.Text = "Зарегистрироваться";
             this.regBut.UseVisualStyleBackColor = true;
@@ -117,7 +117,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(306, 88);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 20);
+            this.label6.Size = new System.Drawing.Size(80, 25);
             this.label6.TabIndex = 13;
             this.label6.Text = "Режим";
             // 
@@ -131,14 +131,14 @@
             "гибридный"});
             this.modeCBox.Location = new System.Drawing.Point(376, 85);
             this.modeCBox.Name = "modeCBox";
-            this.modeCBox.Size = new System.Drawing.Size(196, 28);
+            this.modeCBox.Size = new System.Drawing.Size(196, 33);
             this.modeCBox.TabIndex = 12;
             // 
             // PriceTextbox
             // 
             this.PriceTextbox.Location = new System.Drawing.Point(109, 82);
             this.PriceTextbox.Name = "PriceTextbox";
-            this.PriceTextbox.Size = new System.Drawing.Size(91, 26);
+            this.PriceTextbox.Size = new System.Drawing.Size(91, 30);
             this.PriceTextbox.TabIndex = 11;
             // 
             // label5
@@ -146,7 +146,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(20, 85);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(83, 20);
+            this.label5.Size = new System.Drawing.Size(102, 25);
             this.label5.TabIndex = 10;
             this.label5.Text = "Цена от $";
             // 
@@ -165,7 +165,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(306, 41);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 20);
+            this.label4.Size = new System.Drawing.Size(63, 25);
             this.label4.TabIndex = 8;
             this.label4.Text = "Жанр";
             // 
@@ -183,14 +183,14 @@
             "Ролевая игра"});
             this.styleBox.Location = new System.Drawing.Point(376, 38);
             this.styleBox.Name = "styleBox";
-            this.styleBox.Size = new System.Drawing.Size(196, 28);
+            this.styleBox.Size = new System.Drawing.Size(196, 33);
             this.styleBox.TabIndex = 7;
             // 
             // nameText
             // 
             this.nameText.Location = new System.Drawing.Point(125, 38);
             this.nameText.Name = "nameText";
-            this.nameText.Size = new System.Drawing.Size(150, 26);
+            this.nameText.Size = new System.Drawing.Size(150, 30);
             this.nameText.TabIndex = 6;
             this.nameText.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nameText_KeyDown);
             // 
@@ -209,7 +209,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(20, 41);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 20);
+            this.label3.Size = new System.Drawing.Size(99, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "Название";
             // 
@@ -227,22 +227,23 @@
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AddToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(198, 28);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // AddToolStripMenuItem
             // 
             this.AddToolStripMenuItem.Name = "AddToolStripMenuItem";
-            this.AddToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.AddToolStripMenuItem.Size = new System.Drawing.Size(197, 24);
             this.AddToolStripMenuItem.Text = "Добавить объект";
             this.AddToolStripMenuItem.Click += new System.EventHandler(this.AddToolStripMenuItem_Click);
             // 
             // mainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1060, 649);
             this.Controls.Add(this.menuPanel);

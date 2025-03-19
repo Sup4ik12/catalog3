@@ -194,6 +194,7 @@ namespace каталог
             }
             else
             {
+                LogForm.isAdmin = false;
                 nameLab.Text = "";
                 nameLab.Visible = false;
                 logbut.Text = "Вoйти";
